@@ -1,0 +1,68 @@
+% Author : Prakash Gautam
+% Date   : 18-11-2019 13:06:42
+%
+\documentclass[a4paper]{article}
+
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{pgfplots}
+\usepackage{fontenc}
+\usepackage{physics}
+\usepackage{graphicx}
+\usepackage{tikz-feynman}
+\usepackage{glossaries}
+\usepackage{tikz}
+
+\author{Prakash Gautam}
+\input{EXOAcronyms.tex}
+
+\begin{document}
+    This is a demo
+    \begin{align}
+        ax ^2 + bx +c = 0
+    \end{align}
+
+    \begin{align*}
+        x^{2} + bx = 0
+    \end{align*}
+
+    \begin{align*}
+        ax^{2}
+    \end{align*}
+    
+    \begin{align*}
+        \Gamma(n) = \int\limits_{-\infty}^{\infty} e^{-x} x^{n}dx
+    \end{align*}
+
+    \begin{figure}[h!]
+        \centering
+        \input{0nbb.tex}
+        \caption{}
+        \label{fig:}
+    \end{figure}
+    
+    This is a diagram for \gls{onbb}
+
+    \begin{align*}
+        \frac{x}{y}
+    \end{align*}
+
+    \begin{align*}
+        \int\limits_{0}^{\pi} \frac{\sin{\phi}}{\cos{\phi}} d\phi
+    \end{align*}
+
+I can cite that \cite{prelovsekHeavyFlavorsLattice2017}
+    \begin{figure}[h!]
+        \centering
+        \input{../images/randomplot.tex}
+        \label{fig:}
+    \end{figure}
+     
+    \bibliographystyle{ieeetr85}
+    \bibliography{Femo.bib}
+    
+    
+
+
+    
+\end{document}
