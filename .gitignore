@@ -1,0 +1,16 @@
+Slides/_minted-PGSATalk/
+.ipynb_checkpoints
+*.aux
+*.fdb_latexmk
+*.fls
+*.glo
+*.ist
+*.log
+*.nav
+*.out
+*.snm
+*.toc
+*.vrb
+*.synctex*
+*.bbl
+*.blg
