@@ -1,0 +1,36 @@
+
+~/texmf
+|-- bibtex
+|   |-- bib
+|   |   |-- Bibliographies.bib
+|   |   `-- QuantumPhysics.bib
+|   `-- bst
+|       |-- ieeetr85.bst
+|       |-- unsrt85.bst
+|       `-- utphys85.bst
+|-- tex
+|   `-- latex
+|       |-- Acronyms
+|       |   |-- EXOAcronyms.tex
+|       |   `-- STAcronyms.tex
+|       |-- Drexel
+|       |   |-- DrexelColour.tex
+|       |   `-- DrexelStyle.tex
+|       |-- EXO
+|       |   `-- images
+|       |       `-- EXO_logo.pdf
+|       |-- Prakash
+|       |   |-- PReport.cls
+|       |   |-- homework.sty
+|       |   `-- pgmath.sty
+|       |-- styles
+|       |   |-- ListingColour.tex
+|       |   `-- TikzFeynmanStyle.tex
+|       `-- tikz
+|           `-- feynman
+|               |-- 0nbb.tex
+|               |-- 0nbb_with_arraow.tex
+|               `-- 2nbb.tex
+|-- ls-R
+`-- README.md
+

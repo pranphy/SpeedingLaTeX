@@ -1,0 +1,15 @@
+.
+|-- images
+|   |-- image1.png
+|   |-- image2.png
+|   `-- image3.jpg
+|-- References
+|   |-- AllnoSpace.tex
+|   `-- CombinedMine.tex
+|-- chapters
+|   |-- chapter0.tex
+|   |-- chapter1.tex
+|   `-- chapter2.tex
+|-- Thesis.tex
+`-- Thesis.pdf
+

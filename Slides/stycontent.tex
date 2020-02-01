@@ -1,0 +1,21 @@
+% Environments and stuffs
+\newenvironment{questions}{% 
+\begin{enumerate} }{ \end{enumerate}%
+}
+\newcommand{\question}[1][]{%
+    \ifthenelse{\equal{#1}{}}%
+    {\item}{\item \textbf{(#1)}}%
+}
+\renewcommand{\part}{\item}
+\newenvironment{solution}{~\\ \textbf{Solution: }~\\}%
+{\hfill $\square$ ~\\}
+%
+% general mathematics
+% Unit vector 
+\newcommand{\uvec}[1]{\mathbf{\hat{#1}}}
+\newcommand{\vecop}[1]{\mathbf{{#1}}}
+%
+% Astro constants
+\newcommand{\msun}{M_{\odot}}
+\newcommand{\e}[1]{\times 10^{#1}}
+

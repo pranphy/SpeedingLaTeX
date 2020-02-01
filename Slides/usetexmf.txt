@@ -1,0 +1,23 @@
+% Author : Other Name
+% Date   : 17-11-2019 18:47:14
+%
+\documentclass[a4paper]{article}
+
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{glossaries}
+\usepackage{graphicx}
+
+\author{Prakash Gautam}
+
+\input{EXOAcronyms.tex}
+\input{STAcronyms.tex}
+
+\begin{document}
+    Talk about \gls{sm}, and its \gls{sm}.
+    %Talk about Standard Model(SM) and its SM. 
+    \input{chapters/chapter0.tex}
+    \input{chapters/chapter0.tex}
+    \input{chapters/chapter0.tex}
+    \input{chapters/chapter0.tex}
+\end{document}
